@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+card {
+    background-color: white;
+    width: 18rem;
+    height: 25rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 8px 8px;
+}
+.illustration-picture {
+    border-radius: 10px;
+}
+
+button {
+    width: 5rem;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+}
+
+.published-time {
+    font-size: 16px;
+    font-weight: 500;
+}
+.header {
+    font-size: 24px;
+    font-weight: 800;
+}
+.description {
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    font-weight: 500;
+}
+section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-picture {
+    width: 30px;
+}
+
+.user-name {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.header:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+card:hover {
+    transition: 0.2s ease-in-out;
+    box-shadow: 15px 15px;
+}
